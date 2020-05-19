@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Producenten organisatie in de landbouw</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles/style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+      $(document).ready(function() {
+        $("#header").load("components/header.html"),
+          $("#footer").load("components/footer.html"),
+          $("#leftSide").load("components/leftSide.html");
+      });
+    </script>
+  </head>
+  <body>
+    <div class="row h-100">
+      <!-- leftside  -->
+      <div id="leftSide" class="col-2"></div>
+      <!-- middelpart -->
+      <div class="col">
+        <div id="header"></div>
+        <div
+          class="h-75 d-flex flex-column justify-content-around"
+          id="mainText"
+        >
+          <h1 class="text-center">ProducentenOrganisaties</h1>
+          <h1 class="text-center">ter versterking</h1>
+          <h1 class="text-center">marktpositie landbouw</h1>
+        </div>
+        <div id="footer"></div>
+      </div>
+      <!-- rightside -->
+      <div class="col-2 "></div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Producenten organisatie in de landbouw</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles/style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+      $(document).ready(function() {
+        $("#header").load("components/header.html"),
+          $("#footer").load("components/footer.html");
+        $("#leftSide").load("components/leftSide.html");
+      });
+    </script>
+  </head>
+  <body>
+    <div class="row h-100">
+      <!-- leftside  -->
+      <div id="leftSide" class="col-2"></div>
+      <!-- middelpart -->
+      <div class="col">
+        <div id="header"></div>
+        <!-- mainpart -->
+        <div class="h-75">
+          <div class="text-center">
+            <div class="row ">
+              <div class="col-6 align-self-stretch">
+                <h1>Studie</h1>
+                <h3>
+                  Cultuurtechniek (1972) <br />
+                  Wageningen Universiteit
+                </h3>
+                <p>sociale- en economische vakken over landbouw</p>
+                <h3>
+                  Nederlands recht <br />
+                  Universiteit Utrecht
+                </h3>
+                <p>
+                  mededingingsrecht <br />
+                  privaatrecht <br />
+                  concsumentenrecht
+                </p>
+              </div>
+              <div class="col-6">
+                <h1>Werk</h1>
+                <h4>1981-1989: Boer(inn)engroep</h4>
+                <p>
+                  begeleiding landbouwgroepen <br />
+                  onderzoek en journalistiek werk
+                </p>
+                <h4>1989-1991: Voorlichtingskunde (WU)</h4>
+                <p>
+                  onderzoek: positie van boerinnen <br />
+                  onderzoek: meisjes in het landbouwonderwijs
+                </p>
+                <h4>1991-2005: Wetenschapswinkel (WU)</h4>
+                <p>
+                  opzetten en begeleiding onderzoeksprojecten <br />
+                  betreffende landbouw- en plattelandsthema's
+                </p>
+                <h4>2005-2018: Leerstoelgroep Recht en Bestuur (WU)</h4>
+                <p>onderzoek en onderwijs over voedsel- en landbouwrecht</p>
+              </div>
+            </div>
+            <div class="col-12 text-danger">
+              <p>
+                Proefschrift 'ProducentenOrganisatie als erkend kartel' 2018
+                <br />
+                Universiteit van Groningen.
+              </p>
+              <p>Dit is een nieuw beginpunt.</p>
+              <p>
+                Het begin om samenwerking in de landbouw te stimuleren en te
+                ondersteunen.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- footer  -->
+        <div id="footer"></div>
+      </div>
+      <!-- rightside -->
+      <div class="col-2 "></div>
+    </div>
+  </body>
+</html>
