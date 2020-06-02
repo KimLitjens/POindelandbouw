@@ -22,10 +22,28 @@ a {
 }
 
 #textFooter {
+  font-style: serif;
   margin: 40px;
 }
 
 #logo {
   margin: 10px 0 0 10px;
+}
+
+#mariaText p:nth-child(odd) {
+  text-align: left;
+}
+
+#mariaText p:nth-child(even) {
+  text-align: right;
+  padding-bottom: 20px;
+}
+
+.mailContact {
+  padding: 1em 1.5em;
+}
+
+.phoneContact {
+  padding: 1em 1.5em;
 }
 /*# sourceMappingURL=style.css.map */
