@@ -18,6 +18,10 @@ a {
   font-size: 13px;
 }
 
+#mainText {
+  height: 70%;
+}
+
 #mainText h1 {
   font-size: 60px;
 }
@@ -41,10 +45,37 @@ a {
 }
 
 .mailContact {
-  padding: 1em 1.5em;
+  color: #008dff;
+}
+
+.mailContact a {
+  padding-right: 0.5em;
 }
 
 .phoneContact {
-  padding: 1em 1.5em;
+  color: #008dff;
+}
+
+.phoneContact a {
+  padding-right: 0.5em;
+}
+
+.h70 {
+  height: 70%;
+}
+
+.vereisten {
+  position: relative;
+  top: -100px;
+}
+
+.gevolgen {
+  position: relative;
+  top: -100px;
+}
+
+.absoluteFooter {
+  position: absolute;
+  bottom: 0;
 }
 /*# sourceMappingURL=style.css.map */
