@@ -19,7 +19,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Producenten organisatie in de landbouw</title>
     <link
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
@@ -27,11 +26,12 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="styles/style.css" />
+    <title>Producenten organisatie in de landbouw</title>
   </head>
   <body>
-    <div class="row h-100">
+    <div class="row h-100 w-100">
       <!-- leftside  -->
-      <div id="leftSide" class="col-2"></div>
+      <div id="leftSide" class="col-2 d-none d-lg-block"></div>
       <!-- middelpart -->
       <div class="col">
         <div id="header"></div>
@@ -45,7 +45,7 @@
         <footer id="footer"></footer>
       </div>
       <!-- rightside -->
-      <div class="col-2 "></div>
+      <div class="col-2"></div>
     </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -61,7 +61,7 @@
       crossorigin="anonymous"
     ></script>
     <script>
-      $(document).ready(function() {
+      $(document).ready(function () {
         $("#header").load("components/header.html"),
           $("#footer").load("components/footer.html"),
           $("#leftSide").load("components/leftSide.html");
