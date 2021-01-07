@@ -29,14 +29,14 @@
     <link rel="stylesheet" href="styles/style.css" />
   </head>
   <body>
-    <div class="row ">
+    <div class="row">
       <!-- leftside  -->
-      <div id="leftSide" class="col-2"></div>
+      <div id="leftSide" class="col-2 d-none d-lg-block"></div>
       <!-- middelpart -->
       <div class="col h50">
         <div id="header"></div>
         <!-- mainpart -->
-        <div class=" d-flex flex-column justify-content-around ">
+        <div class="d-flex flex-column justify-content-around">
           <div class="d-flex justify-content-center mb-4">
             <h2>
               Landbouwproducenten mogen binnen een PO <br />
@@ -59,7 +59,7 @@
               <p>- erkenning door Nederlandse overheid nodig</p>
             </div>
           </div>
-          <div class=" d-flex justify-content-center gevolgen">
+          <div class="d-flex justify-content-center gevolgen">
             <div>
               <h3><u>Gevolgen</u></h3>
               <p>
@@ -82,7 +82,7 @@
       <!-- footer  -->
 
       <!-- rightside -->
-      <div class="col-2 "></div>
+      <div class="col-2"></div>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
@@ -97,7 +97,7 @@
       crossorigin="anonymous"
     ></script>
     <script>
-      $(document).ready(function() {
+      $(document).ready(function () {
         $("#header").load("components/header.html"),
           $("#footer").load("components/footer.html"),
           $("#leftSide").load("components/leftSide.html");

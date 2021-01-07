@@ -31,7 +31,7 @@
   <body>
     <div class="row h-100">
       <!-- leftside  -->
-      <div id="leftSide" class="col-2"></div>
+      <div id="leftSide" class="col-2 d-none d-lg-block"></div>
       <!-- middelpart -->
       <div class="col">
         <div id="header"></div>
@@ -95,7 +95,7 @@
         <div class="absoluteFooter" id="footer"></div>
       </div>
       <!-- rightside -->
-      <div class="col-2 "></div>
+      <div class="col-2"></div>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
@@ -110,7 +110,7 @@
       crossorigin="anonymous"
     ></script>
     <script>
-      $(document).ready(function() {
+      $(document).ready(function () {
         $("#header").load("components/header.html"),
           $("#footer").load("components/footer.html"),
           $("#leftSide").load("components/leftSide.html");

@@ -31,35 +31,31 @@
   <body>
     <div class="row h100">
       <!-- leftside  -->
-      <div id="leftSide" class="col-2"></div>
+      <div id="leftSide" class="col-2 d-none d-lg-block"></div>
       <!-- middelpart -->
-      <div class="col ">
+      <div class="col">
         <div id="header"></div>
         <div class="row h70 mt-5">
-          <div id="mariaText" class="col-8 text-center d-flex flex-column  ">
+          <div id="mariaText" class="col-8 text-center d-flex flex-column">
             <p>ProducentenOrganisaties zijn onbekend in Nederland.</p>
-            <p>
-              Ik schrijf daarover in landbouw- en juridische tijdschriften.
-            </p>
+            <p>Ik schrijf daarover in landbouw- en juridische tijdschriften.</p>
             <p>De regels voor ProducentenOrganisaties zijn gecompliceerd.</p>
             <p>Ik analyseer de regels en ken de mogelijkheden.</p>
-            <p>
-              ProducentenOrganisaties bieden perspectief voor de landbouw.
-            </p>
+            <p>ProducentenOrganisaties bieden perspectief voor de landbouw.</p>
             <p>Ik geef (juridisch) advies.</p>
           </div>
-          <div class="d-flex align-items-start  col-4">
+          <div class="d-flex align-items-start col-4">
             <img
               src="img/maria2.jpg"
               alt="Maria Litjens"
-              class="img-fluid rounded "
+              class="img-fluid rounded"
             />
           </div>
         </div>
         <div id="footer"></div>
       </div>
       <!-- rightside -->
-      <div class="col-2 "></div>
+      <div class="col-2"></div>
     </div>
   </body>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -75,7 +71,7 @@
     crossorigin="anonymous"
   ></script>
   <script>
-    $(document).ready(function() {
+    $(document).ready(function () {
       $("#header").load("components/header.html"),
         $("#footer").load("components/footer.html"),
         $("#leftSide").load("components/leftSide.html");
