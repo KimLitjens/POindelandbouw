@@ -64,18 +64,20 @@ a {
   height: 70%;
 }
 
-.vereisten {
-  position: relative;
-  top: -100px;
-}
-
-.gevolgen {
-  position: relative;
-  top: -100px;
-}
-
-.absoluteFooter {
+/* .absoluteFooter {
   position: absolute;
   bottom: 0;
+} */
+
+@media screen and (min-width: 767.98px) {
+  .vereisten {
+    position: relative;
+    top: -100px;
+  }
+  
+  .gevolgen {
+    position: relative;
+    top: -100px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
