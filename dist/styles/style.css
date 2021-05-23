@@ -18,12 +18,12 @@ a {
   font-size: 13px;
 }
 
-#mainText h1 {
-  hyphens: auto
+#mainText {
+  height: 60%;
 }
 
-#mainText {
-  height: 70%;
+#mainText h1 {
+  hyphens: auto
 }
 
 #textFooter {
@@ -64,35 +64,19 @@ a {
   height: 70%;
 }
 
-/* .absoluteFooter {
-  position: absolute;
-  bottom: 0;
-} */
-
-
-
 @media screen and (min-width: 768px) {
-  #mainText h1 { 
-    font-size: 60px; 
+  #mainText h1 {
+    font-size: 60px;
   }
 
   .vereisten {
     position: relative;
     top: -100px;
   }
-  
+
   .gevolgen {
     position: relative;
     top: -100px;
   }
 }
-
-
-
-/* @media (min-width: 992px) {
-  html { font-size: 1.75rem; }
-}
-@media (min-width: 1200px) {
-  html { font-size: 2rem; }
-} */
 /*# sourceMappingURL=style.css.map */
